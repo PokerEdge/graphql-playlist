@@ -15,7 +15,7 @@ class BookDetails extends Component {
                     <ul className="other-books">
                         { book.author.books.map(item => {
                             return <li key={ item.id }>{ item.name }</li>;
-                        })}
+                        }) }
                     </ul>
                 </div>
             );
